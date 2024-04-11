@@ -1,0 +1,15 @@
+.nav_container {
+    width: 100vw;
+}
+
+.nav_list{
+    background: black;
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: .5rem;
+    height: 3rem;
+    align-items: center;
+    padding-left: 1rem;
+    border-radius: 10px;
+}
