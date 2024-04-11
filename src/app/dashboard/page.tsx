@@ -1,7 +1,9 @@
 export default function DashBoard(){
     return (
-        <div>
+        <main>  
+        <p>
             dashboard hello
-        </div>
+        </p>
+        </main>
     )
 }
