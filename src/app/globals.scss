@@ -1,4 +1,4 @@
-@use '../../node_modules/@carbon/grid';
+@use '../../node_modules/@carbon/grid' as grid;
 
 // Emit the flex-grid styles
 @include grid.css-grid();
