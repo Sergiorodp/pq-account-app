@@ -1,15 +1,15 @@
 .nav_container {
     width: 100vw;
+    background: black;
 }
 
 .nav_list{
-    background: black;
+    
     display: flex;
     gap: 2rem;
     list-style: none;
-    margin: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
     height: 3rem;
     align-items: center;
-    padding-left: 1rem;
-    border-radius: 10px;
 }
