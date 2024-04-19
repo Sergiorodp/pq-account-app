@@ -1,7 +1,9 @@
+import styles from './login-styles.module.scss'
+
 export default function LogIn(){
     return(
-        <div>
+        <section className={styles.login_container}>
             <h1>Log In</h1>
-        </div>
+        </section>
     )
 }
