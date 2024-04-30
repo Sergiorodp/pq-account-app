@@ -7,7 +7,7 @@ export default function LogIn(){
         <PQCOGridCds>
             <PQCOColumn lg='4' lg_start='7'>
                 <div>
-                    Log In
+                    <p>LogIn</p>
                 </div>
             </PQCOColumn>
         </PQCOGridCds>
