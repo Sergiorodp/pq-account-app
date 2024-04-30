@@ -2,6 +2,9 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.scss";
 import ReduxProvider from "@app/app/storeProvider";
+import { Suspense } from 'react'
+import { NavigationEvents } from "@app/components/Managers/PQCOnavigationManager";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,10 +22,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+
     <ReduxProvider>
       <html lang="en">
         <body className={inter.className}>
           {children}
+          <Suspense fallback={null}>
+              <NavigationEvents />
+          </Suspense>
           </body>
       </html>
     </ReduxProvider>
